@@ -40,6 +40,7 @@ p {
 
 body {
   width: 100%;
+  background-color: #f0f7ff;
 }
 
 /* Header Start */
@@ -49,7 +50,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background: #E3E6F3;
+  background: #d1d5e6;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
   position: sticky;
@@ -120,6 +121,7 @@ body {
   margin: 15px 0;
   transition: 0.2s ease;
   position: relative;
+  background-color: #fff;
 }
 
 #product1 .pro:hover {
@@ -154,7 +156,21 @@ body {
   padding-top: 7px;
   color: #606063;
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 500;
+}
+
+#product1 .pro .des h4.type {
+  padding-top: 7px;
+  color: #19a83f;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+#product1 .pro .des h4.studio {
+  padding-top: 7px;
+  color: #b31d63;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 #product1 .pro button {
@@ -179,7 +195,7 @@ body {
 #product1 .typewriter p {
   display: inline-block;
   width: 44ch;
-  animation: typing 3s steps(40), blink .5s step-end infinite alternate;
+  animation: typing 4s steps(40), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
