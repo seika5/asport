@@ -148,28 +148,28 @@ body {
 
 #product1 .pro .des h5 {
   padding-top: 7px;
-  color: #1a1a1a;
+  color: #606063;
   font-size: ;
 }
 
 #product1 .pro .des h4 {
   padding-top: 7px;
-  color: #606063;
-  font-size: 12px;
-  font-weight: 500;
+  color: #1a1a1a;
+  font-size: 18px;
+  font-weight: 800;
 }
 
 #product1 .pro .des h4.type {
   padding-top: 7px;
   color: #19a83f;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 
 #product1 .pro .des h4.studio {
   padding-top: 7px;
   color: #b31d63;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 
