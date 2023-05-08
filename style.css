@@ -214,3 +214,10 @@ body {
     border-color: transparent
   }
 }
+
+/* Templates */
+
+#desc .text h4 {
+  text-align: center;
+  padding-top: 50px;
+}
